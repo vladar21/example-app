@@ -80,7 +80,7 @@ class SphereTest extends TestCase
     }
 
     /**
-     * A basic unit test example.
+     * A unit test checks correct work for the Sphere distance method.
      *
      * @return void
      */

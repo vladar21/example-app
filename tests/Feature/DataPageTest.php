@@ -8,7 +8,7 @@ use Tests\TestCase;
 class DataPageTest extends TestCase
 {
     /**
-     * A basic test example.
+     * A basic test for correct opening of the data page.
      *
      * @return void
      */
