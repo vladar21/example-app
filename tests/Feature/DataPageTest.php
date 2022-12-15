@@ -5,16 +5,16 @@ namespace Tests\Feature;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-class ExampleTest extends TestCase
+class DataPageTest extends TestCase
 {
     /**
      * A basic test example.
      *
      * @return void
      */
-    public function test_example()
+    public function testDataPage()
     {
-        $response = $this->get('/');
+        $response = $this->get('/data');
 
         $response->assertStatus(200);
     }
